@@ -1,0 +1,19 @@
+{
+  "name": "scrapping",
+  "version": "1.0.0",
+  "description": "web scrapping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node -r esm index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "esm": "^3.2.22",
+    "koa": "^2.7.0",
+    "lodash": "^4.17.11"
+  }
+}
