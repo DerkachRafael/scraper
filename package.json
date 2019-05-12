@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node -r esm index.js"
+    "dev": "node -r esm index.js",
+    "start": "nodemon --inspect -r esm index.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "cheerio": "^1.0.0-rc.3",
     "esm": "^3.2.22",
     "koa": "^2.7.0",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.11",
+    "objects-to-csv": "^1.2.1"
   }
 }
