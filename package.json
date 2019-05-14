@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node -r esm index.js",
-    "start": "nodemon --inspect -r esm index.js"
+    "watch": "nodemon --inspect -r esm index.js --ignore *.json"
   },
   "author": "",
   "license": "ISC",
@@ -15,7 +15,11 @@
     "cheerio": "^1.0.0-rc.3",
     "esm": "^3.2.22",
     "koa": "^2.7.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0",
     "lodash": "^4.17.11",
+    "lowdb": "^1.0.0",
+    "node-cron": "^2.0.3",
     "objects-to-csv": "^1.2.1"
   }
 }
