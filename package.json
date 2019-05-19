@@ -18,8 +18,7 @@
     "koa-json": "^2.0.2",
     "koa-router": "^7.4.0",
     "lodash": "^4.17.11",
-    "lowdb": "^1.0.0",
     "node-cron": "^2.0.3",
-    "objects-to-csv": "^1.2.1"
+    "puppeteer": "^1.16.0"
   }
 }
