@@ -1,4 +1,4 @@
-_scrap with **puppeteer** top 10 films/serials hdrezka website_
+_scrap with **puppeteer** top 10 films/serials from hdrezka website_
 ****
   Run in the terminal
         
